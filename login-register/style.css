@@ -1,0 +1,323 @@
+.routes{
+    height: 100px;
+    color: antiquewhite;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+h4{
+    color: aliceblue;
+}
+.cities{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    padding-left: 950px;
+}
+h4{
+    padding: 10px;
+}
+
+.box{
+    background-image:linear-gradient(0deg,#8cd0edfe,rgba(255, 192, 203, 0.5),rgba(201, 116, 201, 0.5)),url("upper_nav_image.jpg");
+    background-size: cover;
+    display: flex;
+    height: 700px;
+    flex-direction: row;
+    gap: 80px;
+    animation: color 12s ease-in-out infinite;
+    
+}
+.containner{
+    width: 400px;
+    height: 400px;
+    margin-top: 30px;
+    margin-top: 50px;
+    margin-right: 20px;
+    border: solid rgba(225,225,225,0.3);
+    background: rgba(225,225,225,0.2);
+    box-shadow: 0px 4px 30px
+    rgba(0,0,0,0.1);
+    border-radius: 40px;
+    align-items: center;
+    background-color: white;
+}
+.loginmail{
+    /*display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;*/
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,
+    minmax(200px,1fr));
+    gap: 20px;  
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+
+}
+
+input{
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+    margin: 20px 20px 20px 20px;
+    
+
+}
+.register{
+    margin: 20px 20px 20px 20px;
+    font-size: 15px;
+}
+
+.paragraph-box{
+    margin-left: 40px;
+    margin-top: 100px;
+
+}
+h5{
+    color: #ffcc00;
+    font-family: "New Tegomin", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 25px;
+}
+
+h6{
+  font-family: "Simonetta", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+li{
+    padding: 20px;
+    font-size: smaller;
+    font-weight: 200;
+    font-style: italic;
+    font-variant: small-caps;
+}
+#l1{
+    font-size: medium;
+    font-weight: 500;
+    
+    
+}
+#l2{
+    font-size: small;
+    font-weight: 100;
+    margin-left: 0px;
+    
+}
+#sign{
+    margin-left: 180px;
+}
+p{
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+
+}
+img{
+    width: 250px;
+    height: 250px;
+}
+.img1{
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin-right: 50px;
+
+}
+.img2{
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin-left: 50px;
+
+}
+#p1{
+    font-size: small;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.map{
+    width: 800px;
+    height: 500px;
+    background-image: url("dm-transport-logo-04.png");
+    background-size: cover;
+    border-top-right-radius: 800px;
+    border-bottom-left-radius: 200px;
+    margin-top: 100px;
+    display: flex;
+    
+}
+.imp{
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+#hr{
+    width: 600px;
+    height: 4px;
+    background-color: #f00f0f;
+
+}
+.safety{
+    margin-left: 300px;
+}
+#s1{
+    color: #f36944;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#s2{
+    font-size: medium;
+    font-family: cursive;
+
+}
+.service{
+    width: 600px;
+    height: 500px;
+    background-color: black;
+    border-radius: 50px;
+    display: flex;
+}
+
+#i1{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    
+}
+#b1{
+    width: 100px; 
+    height: 50px; 
+    border-radius: 15px;
+    background-color: azure;
+    font-weight: 600;
+    font-size: larger;
+    margin-top: 50px;
+}
+.fig1{
+    margin-right: 500px;
+
+}
+
+
+#img2{
+    width: 450px;
+    height: 500px;
+    
+}
+.fig1{
+    margin-left: 200px;
+    
+}
+.destination ul li input{
+    padding-left: 20px;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+   margin-top: 200px;
+
+
+}
+.footer1{
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+
+}
+#hand1{
+    width: 40px;
+    height: 20px;
+    color: black;
+    margin-left: 10px;
+    font-size: xx-large;
+}
+#n1{
+    font-size: 0.7rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#n2{
+    font-size: 0.4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#join{
+    background-color: rgb(237, 231, 231);
+    width: 210px;
+    border-radius: 2px;
+    border-width: 1px;
+    margin-left: 700px;
+
+}
+.list5{
+    display: flex;
+}
+.cancel{
+    margin-left: 30px;
+    flex-wrap: wrap;
+}
+.footersuport{
+    flex-wrap: wrap;
+    margin-left: 800px;
+}
+#n3{
+    font-size: small;
+    font-style: italic;
+    font-weight: 700;
+}
+#n31{
+    font-size: medium;
+}
+.copyright{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+#n21{
+    font-size: small;
+}
+
+
+.para{
+    text-align: center;
+}
+.dangerp1{
+    color: black;
+    background-color: blanchedalmond;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 10px;
+    
+}
